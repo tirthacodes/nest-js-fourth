@@ -15,7 +15,8 @@ export class UsersService {
 
     }
 
-    createUsers(){
-
+    createUsers(userDetails: CreateUserParams){
+        const newUser = this.userRepository.create({ ...userDetails , createdAt: new Date() });
+        return this.userRepository.save(newUser);
     }
 }
