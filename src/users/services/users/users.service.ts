@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { User } from 'src/typeorm/entities/User';
+import { CreateUserParams } from 'src/users/utils/types';
 import { Repository } from 'typeorm';
 
 @Injectable()
