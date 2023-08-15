@@ -115,8 +115,6 @@ This application exposes the following endpoints:
     }
     ```
 
-For more detailed information about the request and response formats, please refer to the [controllers](src/controller/users/users.controller.ts), [services](src/services/users/users.service.ts), and [DTOs](src/dtos/) sections in the codebase.
-
 ## Contribution
 
 Contributions to this project are welcome! Feel free to fork the repository and submit pull requests for any improvements or fixes.
